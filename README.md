@@ -26,7 +26,6 @@ The binary will be in ./build/bin/*
 ./llama-bench \
   -p 2048 -n 512 \
   -m path/to/model/Qwen3.6-35B-A3B-MTP-UD-Q4_K_M.gguf \
-  --ctx-size 262144 \
   <config>
 ```
 
