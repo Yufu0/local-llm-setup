@@ -1,10 +1,10 @@
 # local-llm-setup
 
 # Hardware
-OS: fedora 44
-CPU: Intel Core i5-14600KF
-GPU: NVIDIA GeForce RTX 4070 SUPER
-RAM: 32Go DDR5 6000hz
+OS: fedora 44 \
+CPU: Intel Core i5-14600KF \
+GPU: NVIDIA GeForce RTX 4070 SUPER \
+RAM: 32Go DDR5 6000hz \
 
 ## Install llamacpp
 ```bash
@@ -17,8 +17,9 @@ The binary will be in ./build/bin/*
 
 ## Download the model
 
-
-
+```bash
+curl -L https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF/resolve/main/Qwen3.6-35B-A3B-UD-Q4_K_M.gguf?download=true -o Qwen3.6-35B-A3B-MTP-Q4_K_M.gguf
+```
 
 ## Bench the model
 
