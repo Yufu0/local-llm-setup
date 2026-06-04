@@ -22,8 +22,6 @@ The binary will be in ./build/bin/*
 
 ## Bench the model
 
-Benchmark with max context size (262144)
-
 ```bash
 ./llama-bench \
   -p 2048 -n 512 \
