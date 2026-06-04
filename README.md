@@ -4,7 +4,7 @@
 OS: fedora 44 \
 CPU: Intel Core i5-14600KF \
 GPU: NVIDIA GeForce RTX 4070 SUPER \
-RAM: 32Go DDR5 6000hz \
+RAM: 32Go DDR5 6000hz 
 
 ## Install llamacpp
 ```bash
