@@ -6,6 +6,11 @@ CPU: Intel Core i5-14600KF \
 GPU: NVIDIA GeForce RTX 4070 SUPER \
 RAM: 32Go DDR5 6000hz 
 
+# Run models config
+```bash
+./llama.cpp/build/bin/llama-server  --host 0.0.0.0 --port 8000 --models-preset models.ini
+```
+
 ## Install llamacpp
 ```bash
 git clone https://github.com/ggml-org/llama.cpp
